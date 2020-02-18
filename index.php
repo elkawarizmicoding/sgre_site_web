@@ -1,14 +1,14 @@
 <?php
 
     /*
-        Developper: By El Khawarizmi | Coding
-        name: SGRE APP
+        Developper By: El Khawarizmi | Coding
+        Name: SGRE APP
         Description: SGRE APP
         Design pattern: MVC
         Langage programmation: PHP
         Database: MySql
         App: achwak.adnew.net
-        Language: english (en)
+        Language: English (en)
         Version: 0.0.1
     */
     
