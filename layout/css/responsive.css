@@ -1,0 +1,248 @@
+.tab-nav-rg .tab-nav-wh{
+    display: none;
+}
+.tab-logo.btn-cr-2 {
+    display: none;
+}
+/* --------------------------------------- */
+/* MEDIUM DEVICES BETWEEN 993PX AND 1199PX */
+/* --------------------------------------- */
+
+@media only screen and (min-width: 993px) and (max-width: 1199px) {
+    /* Users admin */
+}
+
+/* ------------------------------------- */
+/* SMALL DEVICES BETWEEN 768PX AND 992PX */
+/* ------------------------------------- */
+@media only screen and (max-width: 992px) {
+    /* Login Page */
+    .form-login {
+        width: 70%;
+        max-width: 550px;
+    }
+    /******** Users admin ***********/
+    /* tab nav */
+    .tab-nav-rg .tab-profil span {
+        width: auto;
+    }
+    .tab-nav-rg.on {
+        padding-left: 15px;
+    }
+    .tab-nav-rg .dropdown .dropdown-menu {
+        margin: 7px -125px 0;
+    }
+    .tab-logo.btn-create.btn-cr-2 {
+        padding-top: 0;
+        margin-top: 8px;
+        margin-left: 15px;
+        float: left;
+        display: inline-block;
+        width: auto;
+    }
+    /* help */
+    .wrap-content p {
+        font-size: 1em;
+    }
+    .wrap-content p span strong{
+        font-size: .7em;
+    }
+    .wrap-content p img{
+        float: none !important;
+        max-width: 100% !important;
+        margin: 0 auto;
+        height: auto !important;
+        margin-bottom: 15px !important;
+        display: block !important;
+    }
+    .tab-nav-rg .tab-netif{
+        float: unset;
+        position: relative;
+        top: -6px;
+    }
+    .tab-nav-rg .tab-nav-wh{
+        display: block !important;
+        text-align: left;
+    }
+}
+
+/* ------------------------------------- */
+/* < 768PX */
+/* ------------------------------------- */
+@media only screen and (max-width: 767px) {
+    /* Users admin */
+    /* tab aside */
+    .tab-aside {
+        width: 170px;
+    }
+    /* tab panel */
+    .tab-panel {
+        width: calc(100% - 170px);
+        margin-left: 170px;
+    }
+    /* help */
+    .wrap-content.page {
+        padding: 55px;
+    }
+    /* modal */
+    .modal-dialog.full-show-graph  {
+        width: 97% !important;
+    }
+    .modal-dialog.full-show-graph .modal-body {
+        padding: 0;
+    }
+}
+
+
+/* ------------------------------------- */
+/* < 576PX */
+/* ------------------------------------- */
+@media only screen and (max-width: 575px) {
+    /* Login Page */
+    .form-login {
+        width: 85%;
+    }
+    /* Users admin */
+    /* tab aside */
+    .tab-aside li.item .tab-button .title-btn {
+        top: 0px;
+        font-size: 12px;
+    }
+    .tab-aside {
+        width: 140px;
+    }
+    /* tab panel */
+    .tab-panel {
+        width: calc(100% - 140px);
+        margin-left: 140px;
+    }
+    /* dashboard */
+    .tab-intreview {
+        height: 115px;
+        padding: 15px 0;
+    }
+    .tab-intreview .intr-left {
+        width: 85px;
+    }
+    .tab-intreview .intr-left i {
+        font-size: 3em;
+    }
+    .tab-intreview .intr-right {
+        width: calc(100% - 85px);
+    }
+    .intr-right-tab {
+        width: 100%;
+    }
+    .intr-right-tab .load-number {
+        width: 50%;
+        height: 40px;
+        line-height: 45px;
+    }
+    .wrap-content.page {
+        padding: 40px;
+    }
+    .wrap-content h2 {
+        font-size: 20px !important;
+    }
+    .package-btn {
+        padding: 0px;
+        text-align: center;
+    }
+    .tab-nav-rg .dropdown {
+        width: 122px;
+    }
+    .tab-nav-rg .dropdown .dropdown-menu {
+        width: 256px;
+    }
+}
+
+/* ------------------------------------- */
+/* < 415PX */
+/* ------------------------------------- */
+@media only screen and (max-width: 414px) {
+    /* Login Page */
+    .form-login {
+        width: 100%;
+    }
+    /* tab aside */
+    .tab-aside li.item .tab-button {
+        padding-left: 7px;
+    }
+    .tab-aside li.item .tab-button .icon-btn {
+        width: 22px;
+    }
+    .tab-aside li.item .tab-button .icon-btn i {
+        font-size: 1.4em;
+    }
+    .tab-aside {
+        width: 125px;
+    }
+    /* tab panel */
+    .tab-panel {
+        width: calc(100% - 125px);
+        margin-left: 125px;
+    }
+    /* Users admin */
+    .tab-logo.btn-create.btn-cr-2 {
+        margin-top: 10px;
+        margin-left: 4px;
+        font-size: 11px;
+    }
+    .tab-intreview {
+        height: 105px;
+    }
+    .tab-intreview .intr-left {
+        width: 74px;
+    }
+    .tab-intreview .intr-left i {
+        font-size: 2em;
+    }
+    .tab-intreview .intr-right {
+        width: calc(100% - 74px);
+    }
+    .intr-right-tab .load-number span.number {
+        font-size: 2em;
+    }
+    .intr-right-tab p.intr-title {
+        padding: 0.3em;
+        font-size: 1em;
+    }
+    .wrap-content.page {
+        padding: 25px;
+    }
+    .form-search-users {
+        padding: 2em 0;
+    }
+    .section-data {
+        padding: 2em 0;
+    }
+    .no-p-tab {
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+    }
+    .modal-dialog  {
+        width: 97% !important;
+    }
+
+    /* admin admin */
+    .users-input-checkbox .checkbox-input span {
+        font-size: 12px;
+    }
+    .tab-panel-bo {
+        padding: 0 10px;
+    }
+    /* users */
+    #searchUsersBtn,
+    #addUsers {
+        display: block;
+        margin-top: 10px;
+        width: 100%;
+    }
+}
+
+
+
+
+
+
+
